@@ -84,7 +84,7 @@
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" springLoaded="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uS6-7j-lR5">
                                 <rect key="frame" x="0.0" y="64" width="375" height="554"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="285" id="qiI-Cm-ust" customClass="HomeTableViewCell" customModule="DearBornTest" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="285"/>
@@ -108,7 +108,7 @@
                                                 </button>
                                                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Tif-Bi-e9w">
                                                     <rect key="frame" x="0.0" y="40" width="375" height="234.5"/>
-                                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="IJ8-bA-ggH">
                                                         <size key="itemSize" width="362" height="188"/>
                                                         <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -157,6 +157,7 @@
                                                     </cells>
                                                 </collectionView>
                                             </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <constraints>
                                                 <constraint firstAttribute="trailing" secondItem="Tif-Bi-e9w" secondAttribute="trailing" id="2Ww-GF-LAz"/>
                                                 <constraint firstItem="Tif-Bi-e9w" firstAttribute="top" secondItem="LwE-Uh-s5q" secondAttribute="bottom" id="619-cR-9Mp"/>
@@ -171,6 +172,7 @@
                                                 <constraint firstItem="bo5-eW-fs3" firstAttribute="top" secondItem="HSc-zy-s05" secondAttribute="top" constant="10" id="ygL-bz-Ae5"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
                                             <outlet property="contentCollectionVw" destination="Tif-Bi-e9w" id="JWE-ay-Sia"/>
                                             <outlet property="titleLbl" destination="LwE-Uh-s5q" id="Bwb-Jx-73z"/>
@@ -180,7 +182,7 @@
                                 </prototypes>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="DJZ-cW-zaB" firstAttribute="bottom" secondItem="uS6-7j-lR5" secondAttribute="bottom" id="0sI-0S-nwr"/>
                             <constraint firstItem="uS6-7j-lR5" firstAttribute="leading" secondItem="DJZ-cW-zaB" secondAttribute="leading" id="Sxd-Ld-dfE"/>
