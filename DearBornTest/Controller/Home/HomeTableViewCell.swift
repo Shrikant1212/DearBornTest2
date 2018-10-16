@@ -45,7 +45,7 @@ extension HomeTableViewCell: UICollectionViewDataSource, UICollectionViewDelegat
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
-        return CGSize(width: contentCollectionVw.frame.width*0.5, height: contentCollectionVw.frame.height)
+        return CGSize(width: contentCollectionVw.frame.width*0.3, height: contentCollectionVw.frame.height)
     }
     
     // Handels interSpacing betweens cell
